@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        #calculator {
+            width: 400px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+            border-radius: 10px;
+            gap: 5px;
+            margin: 30px;
+            border:20px solid black;
+            height:400px;
+        }
+
+        button {
+            padding: 10px;
+            font: 15px arial;
+            cursor: pointer;
+            height: 50px;
+            background-color: orange;
+            border: none;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: darkgray;
+        }
+
+        .display {
+            grid-column: 1 / span 4;
+            text-align: right;
+            padding: 10px;
+            background-color: black;
+            color: darkorchid;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>calculator</h1>
+    <div class="container">
+        <div id="calculator">
+            <input type="text" id="display" class="display">
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>/%</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>0</button>
+            <button class=>=</button>
+            <button>*</button>
+            <button>-</button>
+            <button style="background-color: aliceblue;"> AC</button>
+            <button class="operator">.</button>
+            <button style="background-color: aliceblue;">DEL</button>
+        </div>
+    </div>
+</body>
+</html>
