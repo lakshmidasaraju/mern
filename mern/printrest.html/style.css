@@ -1,0 +1,100 @@
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #fff;
+    }
+
+    .hero img {
+      width: 80%;
+      max-width: 700px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero button {
+      margin-top: 15px;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .steps {
+      padding: 2rem 1rem;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+    .steps h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .step-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .step {
+      background-color: white;
+      padding: 1.5rem;
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .step img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      font-size: 0.9rem;
+    }
+  
